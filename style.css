@@ -1,0 +1,37 @@
+body {
+    background-color: blue;
+    text-align: center;
+}
+
+.banner {
+    background-image: url(Images/banner.png);
+    width: 1000px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner h1 {
+    padding-top: 750px;
+}
+
+.card {
+    border: 2px solid black;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 200px;
+    height: 300px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
